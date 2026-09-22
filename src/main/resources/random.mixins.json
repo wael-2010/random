@@ -2,8 +2,8 @@
 	"required": true,
 	"package": "wael.random.mixin",
 	"compatibilityLevel": "JAVA_25",
-	"mixins": [
-		"ExampleMixin"
+	"mixins": ["RandomizeCraftingMixin"
+
 	],
 	"injectors": {
 		"defaultRequire": 1
