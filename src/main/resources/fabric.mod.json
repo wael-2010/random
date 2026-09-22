@@ -20,7 +20,8 @@
 		],
 		"fabric-datagen": [
 			"wael.random.RandomDataGenerator"
-		]
+		],
+		"client": ["wael.random.mixin.RandomClient"]
 	},
 	"mixins": [
 		"random.mixins.json"
