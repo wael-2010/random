@@ -11,10 +11,19 @@ public class Random implements ModInitializer {
 	public static final String MOD_ID = "random";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
+	public static boolean gameActive = false;
+	public static int tickCounter = 0;
+	public static boolean craftingRandomized = false;
+
+	public static boolean dropsRandomized = false;
+
 
 
 	@Override
 	public void onInitialize() {
+		RandomCommands.registerCommand();
+
+
 
 	}
 }
