@@ -16,6 +16,9 @@ public class Random implements ModInitializer {
 	public static boolean craftingRandomized = false;
 
 	public static boolean dropsRandomized = false;
+	public static boolean armorRandomized = false;
+	public static boolean inventoryShuffled = false;
+	public static boolean chunkSwap = false;
 
 
 
@@ -24,6 +27,10 @@ public class Random implements ModInitializer {
 		RandomCommands.registerCommand();
 
 		RandomBlockDrops.registerBlockDrop();
+
+		RandomArmorSlots.register();
+		InventoryShuffle.register();
+		RandomChunk.register();
 
 
 
