@@ -26,6 +26,7 @@ public class RandomCommands {
                         Random.gameActive = true;
                         Random.tickCounter = 0;
                         Random.craftingRandomized = true;
+                        Random.dropsRandomized = true;
 
                         server.getPlayerList().broadcastSystemMessage(
                                 Component.literal("A Worthy Challenger Has Come... HUH!")
@@ -49,6 +50,7 @@ public class RandomCommands {
                         Random.gameActive = false;
                         Random.tickCounter = 0;
                         Random.craftingRandomized = false;
+                        Random.dropsRandomized = false;
 
                         server.getPlayerList().broadcastSystemMessage(
                                 Component.literal("The Challenger has left...")

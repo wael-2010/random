@@ -23,6 +23,8 @@ public class Random implements ModInitializer {
 	public void onInitialize() {
 		RandomCommands.registerCommand();
 
+		RandomBlockDrops.registerBlockDrop();
+
 
 
 	}
