@@ -30,6 +30,7 @@ public class RandomCommands {
                         Random.armorRandomized = true;
                         Random.inventoryShuffled = true;
                         Random.chunkSwap = true;
+                        Random.countdownTimer = true;
 
 
                         server.getPlayerList().broadcastSystemMessage(
@@ -58,6 +59,7 @@ public class RandomCommands {
                         Random.armorRandomized = false;
                         Random.inventoryShuffled = false;
                         Random.chunkSwap = false;
+                        Random.countdownTimer = false;
 
                         server.getPlayerList().broadcastSystemMessage(
                                 Component.literal("The Challenger has left...")

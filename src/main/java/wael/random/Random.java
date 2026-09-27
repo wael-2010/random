@@ -19,6 +19,7 @@ public class Random implements ModInitializer {
 	public static boolean armorRandomized = false;
 	public static boolean inventoryShuffled = false;
 	public static boolean chunkSwap = false;
+	public static boolean countdownTimer = false;
 
 
 
@@ -31,6 +32,7 @@ public class Random implements ModInitializer {
 		RandomArmorSlots.register();
 		InventoryShuffle.register();
 		RandomChunk.register();
+		Timer.register();
 
 
 
